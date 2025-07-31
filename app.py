@@ -1,10 +1,16 @@
 from flask import Flask, jsonify, request # Flask-Funktione
 from flask_cors import CORS # Für Cross-Origin-Zugriff
 import sqlite3 # Für die Datenbank-Verbindung
+from flask import redirect
+
 
 
 app = Flask(__name__)
 CORS(app)
+
+@app.route("/")
+def home():
+    return redirect("/products")
 
 def get_db():
     conn = sqlite3.connect("database/shop.db")
