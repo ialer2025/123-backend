@@ -48,3 +48,8 @@ Funktion:
 -Warenkorb mit dynamische Anzahl und automatischer Prüfung
 -Checkout: Einkauf bestätigen oder via Stripe (optional)
 
+
+
+https://one23-frontend.netlify.app/
+
+
