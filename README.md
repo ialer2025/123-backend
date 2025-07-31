@@ -48,7 +48,7 @@ Funktion:
 -Warenkorb mit dynamische Anzahl und automatischer Prüfung
 -Checkout: Einkauf bestätigen oder via Stripe (optional)
 
-
+https://github.com/ialer2025/123-frontend
 
 https://one23-frontend.netlify.app/
 
